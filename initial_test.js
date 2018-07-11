@@ -1,6 +1,6 @@
 const Dostrixchain = require('./DostrixChain')
 
-const bitcoin = new Dostrixchain()
+const idostrix = new Dostrixchain()
 
 
-console.log(bitcoin)
+console.log(idostrix)

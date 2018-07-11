@@ -1,12 +1,12 @@
 const Dostrixchain = require('./DostrixChain')
 
-const bitcoin = new Dostrixchain()
+const idostrix = new Dostrixchain()
 
-const block = bitcoin.createNewBlock("ASFHDJHKLKSLKDKLLLDLL","LKLSLDKLDJSHGTYEIEI",100)
-const block1 = bitcoin.createNewBlock("ASFHDJHKLKSLKuirooLLDLL","LKLSLDKLDJSHGTYEIEI",400)
-const block2= bitcoin.createNewBlock("ASFHDJHKLKashehKLLLDLL","LKLSLDKLDLS:TYEIEI",10)
-const block3= bitcoin.createNewBlock("ASFHDJHKLKIDOPDLLDLL","LKLSLDKLDOPDOGTYEIEI",140)
-const block4= bitcoin.createNewBlock("ASFHDJHKLKSLKDKLLLDLL","LKLSLDKsXXASHHIEI",50)
+const block = idostrix.createNewBlock("ASFHDJHKLKSLKDKLLLDLL","LKLSLDKLDJSHGTYEIEI",100)
+const block1 =idostrix.createNewBlock("ASFHDJHKLKSLKuirooLLDLL","LKLSLDKLDJSHGTYEIEI",400)
+const block2= idostrix.createNewBlock("ASFHDJHKLKashehKLLLDLL","LKLSLDKLDLS:TYEIEI",10)
+const block3= idostrix.createNewBlock("ASFHDJHKLKIDOPDLLDLL","LKLSLDKLDOPDOGTYEIEI",140)
+const block4= idostrix.createNewBlock("ASFHDJHKLKSLKDKLLLDLL","LKLSLDKsXXASHHIEI",50)
 
 
 console.log(block)
